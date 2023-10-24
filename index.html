@@ -323,7 +323,7 @@
           canvas1.addEventListener('mousedown', function(e) {
             if(selectedValue==="line")
               return;
-            if(4<(e.offsetX-last_point.x)**2+(e.offsetY-last_point.y)**2)
+            if(16<(e.offsetX-last_point.x)**2+(e.offsetY-last_point.y)**2)
               return;
             if (num ** 2 < (e.offsetX - dots[dots.length - 1].x) ** 2 + (e.offsetY - dots[dots.length - 1].y) ** 2) {
               return;
